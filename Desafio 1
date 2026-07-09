@@ -1,0 +1,14 @@
+CREATE TABLE gastos_pessoais (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    salario REAL NOT NULL,
+    contas REAL NOT NULL,
+    animal REAL NOT NULL,
+    comida REAL NOT NULL,
+    lazer REAL NOT NULL,
+    saude REAL NOT NULL,
+    transporte REAL NOT NULL,
+    outros REAL NOT NULL,
+    total REAL NOT NULL,
+    sobra REAL NOT NULL
+);
